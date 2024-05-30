@@ -94,14 +94,15 @@ mark,
 audio,
 video,
 button {
-    font-family: 'Montserrat';
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
+    font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
     color: white;
+    font-family: 'Nekst';
 }
 
 .dnone {
@@ -117,7 +118,7 @@ textarea {
     box-sizing: border-box;
 }
 
-.fi {
+.free_img {
     width: 0px;
     height: 0px;
     display: flex;
@@ -126,15 +127,7 @@ textarea {
     position: relative;
 }
 
-body {
-    background: url('/img/pageBG.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 
-.container {
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0px 15px;
+html {
+    scroll-behavior: smooth;
 }

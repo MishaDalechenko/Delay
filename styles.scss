@@ -1,44 +1,40 @@
-.header {
+@import 'null';
+
+.hero {
     display: flex;
 
-}
-
-.free_img {
-    width: 0px;
-}
-
-.left {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-
-    &_black {
-        background-color: black;
-        width: 100%;
-        height: 480px;
-
-    }
-
-    &_image84 {
-        width: 238px;
-        height: 428px;
-    }
-
-    &_logo {
-        padding: 25px;
-    }
-
-    &_yellow {
+    &_left {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #DBFF00;
+        flex-wrap: wrap;
+        flex-direction: column;
         width: 100%;
-        height: 240px;
-    }
 
+        &_black {
+            background-color: black;
+            width: 100%;
+            height: 480px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+            .free_img {
+                align-items: end;
+            }
+        }
+
+        &_yellow {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #DBFF00;
+            width: 100%;
+            height: 240px;
+        }
+
+    }
 }
+
+
 
 .center {
     display: flex;
