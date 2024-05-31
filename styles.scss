@@ -1,7 +1,21 @@
 @import 'null';
 
+.header {
+    position: absolute;
+
+    .free_img {
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        left: 35px;
+    }
+}
+
 .hero {
     display: flex;
+    width: 100%;
+    overflow: hidden;
+
 
     &_left {
         display: flex;
@@ -16,9 +30,12 @@
             display: flex;
             justify-content: center;
             align-items: end;
+            overflow: hidden;
 
             .free_img {
                 align-items: end;
+                top: 100px;
+
             }
         }
 
@@ -32,30 +49,50 @@
         }
 
     }
+
+
 }
 
 
 
-.center {
+.hero_center {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     min-width: 700px;
 
 
-    &_orange {
+    &_books {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
         background-color: #F12B00;
         width: 60%;
         height: 240px;
+
+        img {
+            height: 241px;
+        }
     }
 
     &_white {
         display: flex;
-        justify-content: flex-end;
+        align-items: baseline;
+        justify-content: right;
+        overflow: hidden;
 
         background-color: #fff;
         width: 40%;
         height: 240px;
+
+        .free_img {
+            justify-content: right;
+            align-items: baseline;
+            left: 20px;
+            top: -30px;
+        }
     }
 
     &_blue {
@@ -67,10 +104,10 @@
         background-color: #007BAD;
         width: 100%;
         height: 240px;
-    }
 
-    &_animationST {
-        margin-top: 17px;
+        .free_img {
+            top: 10px;
+        }
     }
 
     &_aqua {
@@ -83,20 +120,38 @@
         height: 240px;
     }
 
-    &_image2 {
-        margin-top: -26px;
-    }
 
-    &_orange2 {
+    &_orange {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        align-content: space-between;
+        flex-wrap: wrap;
+
+
         background-color: #F12B00;
         width: 60%;
         height: 240px;
+
+
+        &_china {
+            justify-content: left;
+            align-items: end;
+        }
+
+        &_car {
+            justify-content: right;
+            align-items: center;
+            left: 60px;
+        }
+
     }
 
 }
 
 
-.right {
+.hero_right {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -106,23 +161,28 @@
 
     &_fiolet {
         display: flex;
-        align-items: center;
-        justify-content: flex-end;
+        align-items: top;
+        justify-content: right;
 
 
         background-color: #38044C;
         width: 100%;
         height: 480px;
-    }
 
-    &_image33 {
-        margin-top: -188px;
+
+        .free_img {
+            align-items: center;
+            justify-content: baseline;
+            top: 145px;
+            left: -66px;
+        }
     }
 
     &_pink {
         background-color: #FF1267;
         width: 100%;
         height: 240px;
+
     }
 
 }
