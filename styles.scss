@@ -9,57 +9,17 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    column-gap: 10px;
+    display: none;
 
     &_element {
-        border-radius: 20px;
-    }
+        width: 100%;
+        max-width: fit-content;
+        margin-top: 10px;
 
-    &_element1 {
-        border-radius: 20px;
-        height: 271px;
-        width: 400px;
-    }
-
-    &_element2 {
-        border-radius: 20px;
-        height: 271px;
-        width: 565px;
-    }
-
-    &_element3 {
-        border-radius: 20px;
-        height: 271px;
-        width: 565px;
-    }
-
-    &_element4 {
-        border-radius: 20px;
-        height: 271px;
-        width: 400px;
-    }
-
-    &_element5 {
-        border-radius: 20px;
-        height: 271px;
-        width: 565px;
-    }
-
-    &_element6 {
-        border-radius: 20px;
-        height: 271px;
-        width: 400px;
-    }
-
-    &_element7 {
-        border-radius: 20px;
-        height: 271px;
-        width: 400px;
-    }
-
-    &_element8 {
-        border-radius: 20px;
-        height: 271px;
-        width: 565px;
+        @media(max-width: 1015px) {
+            display: none;
+        }
     }
 
 
