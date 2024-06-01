@@ -1,192 +1,66 @@
 @import 'null';
+@import "Hero";
+@import "photo";
+@import "usp";
 
-.header {
-    position: absolute;
 
-    .free_img {
-        align-items: center;
-        justify-content: center;
-        padding: 30px;
-        left: 35px;
-    }
-}
-
-.hero {
+.portfolio {
     display: flex;
-    width: 100%;
-    overflow: hidden;
-
-
-    &_left {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
-
-        &_black {
-            background-color: black;
-            width: 100%;
-            height: 480px;
-            display: flex;
-            justify-content: center;
-            align-items: end;
-            overflow: hidden;
-
-            .free_img {
-                align-items: end;
-                top: 100px;
-
-            }
-        }
-
-        &_yellow {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #DBFF00;
-            width: 100%;
-            height: 240px;
-        }
-
-    }
-
-
-}
-
-
-
-.hero_center {
-    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-width: 700px;
 
-
-    &_books {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-
-        background-color: #F12B00;
-        width: 60%;
-        height: 240px;
-
-        img {
-            height: 241px;
-        }
+    &_element {
+        border-radius: 20px;
     }
 
-    &_white {
-        display: flex;
-        align-items: baseline;
-        justify-content: right;
-        overflow: hidden;
-
-        background-color: #fff;
-        width: 40%;
-        height: 240px;
-
-        .free_img {
-            justify-content: right;
-            align-items: baseline;
-            left: 20px;
-            top: -30px;
-        }
+    &_element1 {
+        border-radius: 20px;
+        height: 271px;
+        width: 400px;
     }
 
-    &_blue {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-
-        background-color: #007BAD;
-        width: 100%;
-        height: 240px;
-
-        .free_img {
-            top: 10px;
-        }
+    &_element2 {
+        border-radius: 20px;
+        height: 271px;
+        width: 565px;
     }
 
-    &_aqua {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-
-        background-color: #00C2FF;
-        width: 40%;
-        height: 240px;
+    &_element3 {
+        border-radius: 20px;
+        height: 271px;
+        width: 565px;
     }
 
-
-    &_orange {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        overflow: hidden;
-        align-content: space-between;
-        flex-wrap: wrap;
-
-
-        background-color: #F12B00;
-        width: 60%;
-        height: 240px;
-
-
-        &_china {
-            justify-content: left;
-            align-items: start;
-            width: 100%;
-            top: 20px;
-            left: 20px;
-        }
-
-        &_car {
-            justify-content: right;
-            align-items: end;
-            width: 100%;
-            left: 60px;
-        }
-
+    &_element4 {
+        border-radius: 20px;
+        height: 271px;
+        width: 400px;
     }
 
-}
-
-
-.hero_right {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-
-
-    &_fiolet {
-        display: flex;
-        align-items: top;
-        justify-content: right;
-
-
-        background-color: #38044C;
-        width: 100%;
-        height: 480px;
-
-
-        .free_img {
-            align-items: center;
-            justify-content: baseline;
-            top: 145px;
-            left: -66px;
-        }
+    &_element5 {
+        border-radius: 20px;
+        height: 271px;
+        width: 565px;
     }
 
-    &_pink {
-        background-color: #FF1267;
-        width: 100%;
-        height: 240px;
-
+    &_element6 {
+        border-radius: 20px;
+        height: 271px;
+        width: 400px;
     }
+
+    &_element7 {
+        border-radius: 20px;
+        height: 271px;
+        width: 400px;
+    }
+
+    &_element8 {
+        border-radius: 20px;
+        height: 271px;
+        width: 565px;
+    }
+
 
 }
